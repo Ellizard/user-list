@@ -1,0 +1,13 @@
+@import "~bootstrap-scss";
+
+.switch-view {
+  margin: 20px 0;
+}
+
+.card {
+  border-style: double;
+  .card-title {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
