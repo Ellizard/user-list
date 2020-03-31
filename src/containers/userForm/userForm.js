@@ -1,9 +1,7 @@
 import React from 'react'
 
 const userForm = (props) => {
-
 	const newUser = props.editValues === undefined;
-
 
 	return (
 		<form className="col-sm"
@@ -31,7 +29,6 @@ const userForm = (props) => {
 						   id="position"/>
 				</div>
 			</div>
-
 			<div className="form-group row">
 				<label htmlFor="userage"
 					   className="col-sm-1 col-form-label-sm">Age</label>

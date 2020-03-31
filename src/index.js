@@ -8,7 +8,6 @@ import CartTable from './containers/cart/cartTable/cartTable';
 import UserForm from './containers/userForm/userForm';
 import ToggleView from './containers/toggleView/toggleView'
 
-
 class Users extends React.Component {
 	constructor(props) {
 		super(props);
@@ -185,7 +184,6 @@ class Users extends React.Component {
 				)
 			}
 		}
-
 
 		if (this.state.isEdit) {
 			userForm = (

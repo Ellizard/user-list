@@ -14,7 +14,6 @@ const cartTable = (props) => {
 			</tr>
 			</thead>
 			<tbody>
-
 			{props.users.map( (user, index) => {
 				return (
 					<CartRow
@@ -32,8 +31,6 @@ const cartTable = (props) => {
 					/>
 				)
 			})}
-
-
 			</tbody>
 		</table>
 	);
