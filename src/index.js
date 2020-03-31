@@ -87,7 +87,7 @@ class Users extends React.Component {
 			isEdit: true,
 			isNew: false,
 			isList: false,
-			editValues: editValues
+			editValues
 		})
 
 	};
