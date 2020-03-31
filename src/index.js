@@ -8,7 +8,6 @@ import CartTable from './containers/cart/cartTable/cartTable';
 import UserForm from './containers/userForm/userForm';
 import ToggleView from './containers/toggleView/toggleView'
 
-'use strict';
 
 class Users extends React.Component {
 	constructor(props) {
@@ -227,5 +226,5 @@ class Users extends React.Component {
 	};
 }
 
-let domContainer = document.getElementById('app');
+const domContainer = document.getElementById('app');
 ReactDOM.render(<Users/>, domContainer);
